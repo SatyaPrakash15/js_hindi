@@ -26,6 +26,18 @@ console.log(hundred.toLocaleString('en-IN'));
 console.log(Math);
 console.log(Math.abs(-2));
 console.log(Math.sqrt(4));
+console.log(Math.random(1,9)+1);
+console.log((Math.random()*10)+1);
+
+const min = 10;
+const max = 20;
+
+console.log(Math.random(max-min) + 1);
+
+console.log(Math.floor(Math.random()*(max-min)+1)+min);
+
+
+
 
 /*
 JavaScript provides a built-in Math object with various methods for mathematical operations.
