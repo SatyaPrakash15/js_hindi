@@ -17,3 +17,12 @@ The size of the memory is not limited.
 In heap, the memory is manually managed.
 The access time in heap is slower.
 */
+
+
+let myName = "Satya "
+
+let anotherName = myName
+    anotherName = "Satyam"
+console.log(myName);   // Satya
+console.log(anotherName);   // Satyam
+
